@@ -1,0 +1,18 @@
+[project]
+name = "structured-outputs-exercise"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Carmine Pistone",email = "carmine.pistone.apostoli@gmail.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai (>=2.33.0,<3.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "pydantic (>=2.13.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
